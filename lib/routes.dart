@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shareinhappiness/screens/details/details_screen.dart';
 import 'package:shareinhappiness/screens/forgot_password_screen/forgot_password_screen.dart';
 import 'package:shareinhappiness/screens/home/home_screen.dart';
+import 'package:shareinhappiness/screens/news_details/news_details_screen.dart';
 import 'package:shareinhappiness/screens/profile/profile_options/edit_account/edit_account_screen.dart';
 import 'package:shareinhappiness/screens/profile/profile_options/notifications/notifications_screen.dart';
 import 'package:shareinhappiness/screens/profile/profile_options/payment_settings/payment_settings_screen.dart';
@@ -23,4 +24,5 @@ final Map<String, WidgetBuilder> routes = {
   NotificationsScreen.routeName: (context) => NotificationsScreen(),
   PaymentSettingsScreen.routeName: (context) => PaymentSettingsScreen(),
   WishlistScreen.routeName: (context) => WishlistScreen(),
+  NewsDetailsScreen.routeName: (context) => NewsDetailsScreen(),
 };
