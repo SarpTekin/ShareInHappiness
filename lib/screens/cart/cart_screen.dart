@@ -55,7 +55,7 @@ AppBar buildAppBar(BuildContext context) {
     title: Column(
       children: [
         Text(
-          "Your Cart",
+          "Yours Cart",
           style: TextStyle(color: kPrimaryColor),
         ),
         Text(
