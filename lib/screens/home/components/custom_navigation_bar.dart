@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shareinhappiness/screens/cart/cart_screen.dart';
 import 'package:shareinhappiness/screens/home/home_screen.dart';
 
 class CustomNavigationBar extends StatelessWidget {
@@ -34,8 +35,11 @@ class CustomNavigationBar extends StatelessWidget {
                   Navigator.pushNamed(context, HomeScreen.routeName);
                 }),
             IconButton(
-                icon: Image.asset("assets/icons/icons8-shopping-cart-64.png"),
-                onPressed: null),
+              icon: Image.asset("assets/icons/icons8-shopping-cart-64.png"),
+              onPressed: () {
+                Navigator.pushNamed(context, CartScreen.routeName);
+              },
+            )
           ],
         ),
       ),
